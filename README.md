@@ -68,7 +68,7 @@ Churn rate keseluruhan: **20,4%** (2.037 dari 10.000 nasabah).
 7. **Faktor yang hampir tidak berpengaruh:** credit score (19–22%), lama menjadi nasabah (17–23%), dan kepemilikan kartu kredit (20,8% vs 20,2%).
 8. **Segmen prioritas:** nasabah Jerman berusia 40+ (1.310 orang) churn 47,8%.
 
-### Rekomendasi
+#### Rekomendasi
 - Arahkan program retensi ke segmen berisiko (Jerman, usia 40+, tidak aktif), bukan ke semua nasabah.
 - Jadikan status tidak aktif sebagai sinyal peringatan dini.
 - Selidiki paket produk 3–4, misalnya apakah ada masalah pada paketnya atau nasabah dijual terlalu banyak produk.
