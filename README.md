@@ -34,6 +34,28 @@ Data mentah (CSV)
    └─ 3. Dashboard  ── Power BI
 ```
 
+---
+
+### 1. Cleaning
+
+Masalah yang ditemukan pada data mentah dan cara penanganannya:
+
+| Masalah | Jumlah | Penanganan |
+|---|---|---|
+| Baris duplikat | 150 | Dihapus |
+| `customer_id` kosong | 202 | Diberi ID pengganti yang unik |
+| Usia tidak wajar (di bawah 18 tahun, termasuk -1) | 300 | Dihitung ulang dari tanggal lahir |
+| Tanggal lahir dengan dua format (`1982-10-04` dan `04/10/1982`) | 6.096 dan 4.054 | Diseragamkan |
+| Nama kota huruf kecil (`nantes`, `paris`, ...) | ±800 | Diubah ke format judul (`Nantes`) |
+| Saldo negatif | 308 | Dikosongkan dan ditandai |
+| Saldo placeholder `999999.99` | 200 | Dikosongkan dan ditandai |
+| `credit_score` = 999 (di luar skala 300–850) | 300 | Dikosongkan dan ditandai |
+| `estimated_salary` kosong | 600 | Ditandai |
+
+Baris bernilai tidak valid **tidak dihapus**. Nilainya dikosongkan dan barisnya ditandai di kolom `data_quality_flag`, supaya data churn pada baris itu tetap bisa dipakai.
+
+---
+
 ## Dashboard
 <img width="1212" height="691" alt="Screenshot" src="https://github.com/user-attachments/assets/3cadeee7-64ac-4717-931d-95fe2687017a" />
 
