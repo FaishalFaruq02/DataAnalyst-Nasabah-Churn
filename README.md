@@ -20,8 +20,6 @@ Analisis churn nasabah bank end to end dari data mentah sampai dashboard
 7. Apakah **saldo, credit score, lama menjadi nasabah, dan kartu kredit** berpengaruh?
 8. **Segmen mana** yang paling layak diprioritaskan untuk program retensi?
 
-> **Definisi churn:** kolom `churn` bernilai 1 untuk nasabah yang sudah berhenti menjadi nasabah bank, dan 0 untuk yang bertahan. Data sumber tidak mencantumkan periode waktunya.
-
 ---
 
 ## Proses
