@@ -36,7 +36,7 @@ Data mentah (CSV)
 
 ---
 
-### 1. Cleaning
+# Cleaning
 
 Masalah yang ditemukan pada data mentah dan cara penanganannya:
 
@@ -51,8 +51,6 @@ Masalah yang ditemukan pada data mentah dan cara penanganannya:
 | Saldo placeholder `999999.99` | 200 | Dikosongkan dan ditandai |
 | `credit_score` = 999 (di luar skala 300–850) | 300 | Dikosongkan dan ditandai |
 | `estimated_salary` kosong | 600 | Ditandai |
-
-Baris bernilai tidak valid **tidak dihapus**. Nilainya dikosongkan dan barisnya ditandai di kolom `data_quality_flag`, supaya data churn pada baris itu tetap bisa dipakai.
 
 ---
 
