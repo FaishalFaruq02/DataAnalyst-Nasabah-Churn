@@ -34,9 +34,7 @@ Data mentah (CSV)
    └─ 3. Dashboard  ── Power BI
 ```
 
----
-
-# Cleaning
+#### Cleaning
 
 Masalah yang ditemukan pada data mentah dan cara penanganannya:
 
